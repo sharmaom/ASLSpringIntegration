@@ -17,7 +17,9 @@ https://repo.maven.apache.org/maven2/
 Build the application
 
 1. From the command prompt run mvn clean install
+
 To Test checkstyle
+
 1. From the command promptmvn:checkstyle:checkstyle
 
 Note1. It is assumed that the input files will be placed under D:\SITA_TEST_TASK\IN, however we can configure this value in application.properties which is available at src/main/resources
