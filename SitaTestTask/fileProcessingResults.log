@@ -1,3 +1,0 @@
-2017-06-28 17:29:22,892 INFO  [IntegrationRegistrar] - No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
-2017-06-28 17:29:22,939 ERROR [SpringIntegrationTaskClient] - Bean Exception occured in the application.org.springframework.beans.factory.parsing.BeanDefinitionParsingException: Configuration problem: A <poller> must have one and only one trigger configuration.
-Offending resource: class path resource [test/test-config.xml]
