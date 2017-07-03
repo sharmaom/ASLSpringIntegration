@@ -10,7 +10,7 @@ Dependencies
 • junit 4.10
 • apache commons 1.3
 
-Maven repository to download dependencies
+Maven repository for dependencies:
 
 https://repo.maven.apache.org/maven2/
 
@@ -26,10 +26,11 @@ Note1. It is assumed that the input files will be placed under D:\SITA_TEST_TAS
 
 
 Testing the application.
-
-1. Before running the application, place the input files under D:\SITA_TEST_TASK\IN.
-2. To run the application put the project from target in the director \webapps of tomcat.
-3. Verify the results in D:\SITA_TEST_TASK\OUT,D:\SITA_TEST_TASK\PROCESSED and D:\SITA_TEST_TASK\ERROR.
+1) Before running the application, place the input files under D:\SITA_TEST_TASK\IN.
+2) To run the application put the project from target in the director \webapps of tomcat.
+3) Verify the results in D:\SITA_TEST_TASK\OUT for file type "filename.OUTPUT".
+4) Verify the results in D:\SITA_TEST_TASK\PROCESSED for file type "filename.PROCESSED".
+5) Verify the results in D:\SITA_TEST_TASK\ERROR for file type "filename.ERROR".
 
 Process Flow
 
